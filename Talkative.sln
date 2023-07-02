@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5D2C9E4-495F-43E0-B6DE-C50EE01B5CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talkative.Api", "src\Talkative.Api\Talkative.Api.csproj", "{3C08CD14-E524-4CC5-8FF8-A7D900CBFB6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talkative.Application", "src\Talkative.Application\Talkative.Application.csproj", "{56F78D44-4D7D-466B-9834-F6D17FDAC9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talkative.Contracts", "src\Talkative.Contracts\Talkative.Contracts.csproj", "{9EF2BDDA-A7DD-485E-B0B6-1ADAE46BFDED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talkative.Domain", "src\Talkative.Domain\Talkative.Domain.csproj", "{D31BAA7B-B578-4200-B9EE-8D5F63CA60CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talkative.Infrastructure", "src\Talkative.Infrastructure\Talkative.Infrastructure.csproj", "{863E022C-FECE-4648-8198-184705ECF14C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +22,34 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C08CD14-E524-4CC5-8FF8-A7D900CBFB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C08CD14-E524-4CC5-8FF8-A7D900CBFB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C08CD14-E524-4CC5-8FF8-A7D900CBFB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C08CD14-E524-4CC5-8FF8-A7D900CBFB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F78D44-4D7D-466B-9834-F6D17FDAC9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F78D44-4D7D-466B-9834-F6D17FDAC9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F78D44-4D7D-466B-9834-F6D17FDAC9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F78D44-4D7D-466B-9834-F6D17FDAC9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF2BDDA-A7DD-485E-B0B6-1ADAE46BFDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF2BDDA-A7DD-485E-B0B6-1ADAE46BFDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF2BDDA-A7DD-485E-B0B6-1ADAE46BFDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF2BDDA-A7DD-485E-B0B6-1ADAE46BFDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31BAA7B-B578-4200-B9EE-8D5F63CA60CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31BAA7B-B578-4200-B9EE-8D5F63CA60CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31BAA7B-B578-4200-B9EE-8D5F63CA60CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31BAA7B-B578-4200-B9EE-8D5F63CA60CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863E022C-FECE-4648-8198-184705ECF14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863E022C-FECE-4648-8198-184705ECF14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863E022C-FECE-4648-8198-184705ECF14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863E022C-FECE-4648-8198-184705ECF14C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C08CD14-E524-4CC5-8FF8-A7D900CBFB6B} = {B5D2C9E4-495F-43E0-B6DE-C50EE01B5CE8}
+		{56F78D44-4D7D-466B-9834-F6D17FDAC9B8} = {B5D2C9E4-495F-43E0-B6DE-C50EE01B5CE8}
+		{9EF2BDDA-A7DD-485E-B0B6-1ADAE46BFDED} = {B5D2C9E4-495F-43E0-B6DE-C50EE01B5CE8}
+		{D31BAA7B-B578-4200-B9EE-8D5F63CA60CF} = {B5D2C9E4-495F-43E0-B6DE-C50EE01B5CE8}
+		{863E022C-FECE-4648-8198-184705ECF14C} = {B5D2C9E4-495F-43E0-B6DE-C50EE01B5CE8}
 	EndGlobalSection
 EndGlobal

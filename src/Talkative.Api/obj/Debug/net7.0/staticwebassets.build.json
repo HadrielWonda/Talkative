@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SyjSAUDzl5rgjWzcg+OhkGljSNpmyWMtDrJ8At+M6C8=",
+  "Source": "Talkative.Api",
+  "BasePath": "_content/Talkative.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

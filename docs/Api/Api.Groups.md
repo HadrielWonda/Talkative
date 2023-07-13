@@ -1,45 +1,39 @@
-
-
-
 # Api
 
 - [Api] {#api}
-- [talk] {#talk}
-  -[CreatetalkRequest]{#create-talk-request}
-  -[CreatetalkResponse]{#create-talk-response}
+  - [Group] {#Group}
+  
+     -[CreateGroupRequest]{#create-Group-request}
+     
+     -[CreateGroupResponse]{#create-Group-response}
 
-## talk
+## Group
 
-### Create talk request
+### Create Group request
 
 
 ```js
- POST /api/talks
+ POST /api/groups
 ```
 
 
 ```json
 {
-"textContent" : "string",
-"attachments" : {
-    {
-      "type" : "location"
-    }
-}
+"name" : "My Group",
 "createdBy" : 
 "000000000-0000-0000-0000-00000000000000000",
 "secondParty" : "000000000-0000-0000-0000-00000000000000000"
 }
 ```
 
-### Create talk response
+### Create Group response
 
 
 
 ```json
 {
 "id": "000000000-0000-0000-0000-00000000000000000",
-"textContent" : "string",
+"name" : "My Group",
 "createdBy" : 
 "000000000-0000-0000-0000-00000000000000000",
 "secondParty" : "000000000-0000-0000-0000-00000000000000000",

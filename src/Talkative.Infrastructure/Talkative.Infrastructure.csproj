@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Talkative.Application\Talkative.Application.csproj" />
+    
   </ItemGroup>
 
   <PropertyGroup>

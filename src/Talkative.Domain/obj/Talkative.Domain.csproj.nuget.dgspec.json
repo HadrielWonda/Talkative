@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sewah\\Desktop\\Files\\Codes\\Projects\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {}
+    "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sewah\\Desktop\\Files\\Codes\\Projects\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
+    "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sewah\\Desktop\\Files\\Codes\\Projects\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
         "projectName": "Talkative.Domain",
-        "projectPath": "C:\\Users\\sewah\\Desktop\\Files\\Codes\\Projects\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
-        "packagesPath": "C:\\Users\\sewah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sewah\\Desktop\\Files\\Codes\\Projects\\Talkative\\Talkative\\src\\Talkative.Domain\\obj\\",
+        "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
+        "packagesPath": "C:\\Users\\OLAWALE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sewah\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\OLAWALE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

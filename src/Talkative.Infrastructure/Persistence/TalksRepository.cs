@@ -1,13 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Talkative.Application.Talks.Interfaces;
-//using Talkative.Domain.Talks.Interfaces;
+using Talkative.Domain.Talks;
 
 namespace Talkative.Infrastructure.Persistence;
 
-    public class TalksRepository : ITalksRepository
+public class TalksRepository : ITalksRepository
     {
-        public void Add(Talk talk);
+    private static readonly Dictionary<Guid,Talk> _repository = new();
+    public void Add(Talk talk)
+    {
+        _repository[talk.Id] = talk;
     }
+
+
+}

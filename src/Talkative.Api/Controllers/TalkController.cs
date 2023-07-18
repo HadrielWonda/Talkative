@@ -1,20 +1,27 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+
+using Talkative.Application.Talks.Services;
 using Talkative.Contracts.Talks;
 
 namespace Talkative.Api.Controllers;
 
-    [ApiController]
+[ApiController]
     [Route("[controller]")]
     public class ChatController : ControllerBase
     {
-        [HttpPost("/talks")]
+        private readonly ITalksService _talksService;
+
+    public ChatController(ITalksService talksService)
+    {
+        _talksService = talksService;
+    }
+
+    [HttpPost("/talks")]
         public IActionResult CreateTalk(CreateTalkRequest createTalkRequest) 
         {
-            
+            var talk = _talksService.CreateTalk(createTalkRequest.createdBy,createTalkRequest.secondParty);
+
+            return Ok();
         }
         
     }

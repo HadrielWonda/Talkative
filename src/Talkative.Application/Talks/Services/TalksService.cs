@@ -19,9 +19,9 @@ namespace Talkative.Application.Talks.Services;
 
         public Talk CreateTalk(Guid CreatedBy, Guid SecondParty)
         {
-            var talk = new Talk(createdBy , secondParty);
+            var talk = new Talk(CreatedBy , SecondParty);
 
-            _talksRepository.Add(chat);
+            _talksRepository.Add(talk);
 
             return talk;
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Talkative.Domain.Talks;
 
-    public public class Talk
+    public class Talk
     {
         public Guid Id {get; }
 
@@ -17,9 +17,3 @@ namespace Talkative.Domain.Talks;
         public Talk(Guid createdBy,Guid secondParty)
         => (CreatedBy,SecondParty,Id) = (createdBy,secondParty,Guid.NewGuid());
     }
-    
-        
-    
-    
-
-

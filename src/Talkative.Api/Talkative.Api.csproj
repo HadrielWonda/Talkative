@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Talkative.Contracts\Talkative.Contracts.csproj" />
     <ProjectReference Include="..\Talkative.Application\Talkative.Application.csproj" />
+    <ProjectReference Include="..\Talkative.Infrastructure\Talkative.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

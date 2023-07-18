@@ -7,11 +7,11 @@ namespace Talkative.Api.Controllers;
 
 [ApiController]
     [Route("api/[controller]")]
-    public class ChatController : ControllerBase
+    public class TalkController : ControllerBase
     {
         private readonly ITalksService _talksService;
 
-    public ChatController(ITalksService talksService)
+    public TalkController(ITalksService talksService)
     {
         _talksService = talksService;
     }
@@ -21,7 +21,7 @@ namespace Talkative.Api.Controllers;
         {
             var talk = _talksService.CreateTalk(createTalkRequest.createdBy,createTalkRequest.secondParty);
 
-            return Ok();
+            return Ok(talk);
         }
         
     }

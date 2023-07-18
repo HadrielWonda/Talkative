@@ -6,7 +6,7 @@ using Talkative.Contracts.Talks;
 namespace Talkative.Api.Controllers;
 
 [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ChatController : ControllerBase
     {
         private readonly ITalksService _talksService;
@@ -16,7 +16,7 @@ namespace Talkative.Api.Controllers;
         _talksService = talksService;
     }
 
-    [HttpPost("/talks")]
+      [HttpPost]
         public IActionResult CreateTalk(CreateTalkRequest createTalkRequest) 
         {
             var talk = _talksService.CreateTalk(createTalkRequest.createdBy,createTalkRequest.secondParty);

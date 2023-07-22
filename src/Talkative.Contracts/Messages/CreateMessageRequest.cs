@@ -1,3 +1,3 @@
 namespace Talkative.Contracts.Messages;
 
-public record CreateMessageRequest( Guid CreatedBy, Guid SecondParty);
+public record CreateMessageRequest(string TextContent , Guid CreatedBy, Guid SecondParty);

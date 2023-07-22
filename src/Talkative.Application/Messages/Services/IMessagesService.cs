@@ -4,5 +4,5 @@ namespace Talkative.Application.Messages.Services;
 
 public interface IMessagesService
     {
-        Message CreateMessage(Guid createdBy, Guid secondParty);
+        Message CreateMessage(string textContnt, Guid createdBy, Guid secondParty);
     }

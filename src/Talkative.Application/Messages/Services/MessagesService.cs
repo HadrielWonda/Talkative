@@ -12,9 +12,9 @@ public class MessagesService : IMessagesService
            _messagesRepository = messagesRepository;
         }
 
-        public Message CreateMessage(Guid CreatedBy, Guid SecondParty)
+        public Message CreateMessage(string textContent,Guid CreatedBy, Guid SecondParty)
         {
-            var message = new Message(CreatedBy , SecondParty);
+            var message = new Message(textContent,CreatedBy , SecondParty);
 
             _messagesRepository.Add(message);
 

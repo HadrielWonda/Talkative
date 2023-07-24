@@ -11,11 +11,21 @@ namespace Talkative.Infrastructure.Persistence
     public class MessagesRepository : IMessagesRepository
     {
 
-        private static readonly Dictionary<Guid,Message> _repository = new ();
-        public void Add(Message message)
+        private static readonly Dictionary<Guid,List<Message>> _repository = new ();
+        public void Add(Guid talkId,Message message)
         {
            //throw new NotImplementedException();
-           _repository[message.Id] = message;
+           //_repository[message.Id] = message;
+
+
+           if (_repository.TryGetValue(talkId, out var messages))
+           {
+              messages.Add(message);
+              return;
+           }
+
+           _repository[talkId] = new List<Message>{ message };
+            
         }
     }
 }

@@ -9,5 +9,5 @@ namespace Talkative.Application.Messages.Interfaces;
 
     public interface IMessagesRepository
     {
-        void Add(Message message);
+        void Add(Guid talkId,Message message);
     }

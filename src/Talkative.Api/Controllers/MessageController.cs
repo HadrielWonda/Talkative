@@ -6,7 +6,7 @@ using Talkative.Contracts.Messages;
 namespace Talkative.Api.Controllers;
 
 [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/talks/{talkId}/[controller]")]
     public class MessageController : ControllerBase
     {
         private readonly IMessagesService _messagesService;
@@ -17,11 +17,11 @@ namespace Talkative.Api.Controllers;
     }
 
       [HttpPost]
-        public IActionResult CreateMessage(CreateMessageRequest createMessageRequest) 
+        public IActionResult CreateMessage(CreateMessageRequest createMessageRequest,Guid talkId ) 
         {
-            var message = _messagesService.CreateMessage(createMessageRequest.TextContent,createMessageRequest.CreatedBy,createMessageRequest.SecondParty);
+            var talk = _messagesService.CreateMessage(talkId,createMessageRequest.TextContent,createMessageRequest.CreatedBy,createMessageRequest.SecondParty);
 
-            return Ok(message);
+            return Ok(talk);
         }
         
     }

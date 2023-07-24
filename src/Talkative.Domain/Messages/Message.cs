@@ -10,14 +10,14 @@ namespace Talkative.Domain.Messages
     {
         public string TextContent {get; }
         
-         public Guid Id {get; }
+         public Guid TalkId {get; }
 
         public Guid CreatedBy{get; }
 
         public Guid SecondParty{get; }
 
-        public Message(string texContent,Guid createdBy,Guid secondParty)
-        => (TextContent,CreatedBy,SecondParty,Id) = (texContent,createdBy,secondParty,Guid.NewGuid());
+        public Message(Guid talkId,string texContent,Guid createdBy,Guid secondParty)
+        => (TalkId,TextContent,CreatedBy,SecondParty) = (Guid.NewGuid(),texContent,createdBy,secondParty);
     }
     
 }

@@ -19,7 +19,7 @@ namespace Talkative.Api.Controllers;
       [HttpPost]
         public IActionResult CreateMessage(CreateMessageRequest createMessageRequest,Guid talkId ) 
         {
-            var talk = _messagesService.CreateMessage(talkId,createMessageRequest.TextContent,createMessageRequest.CreatedBy,createMessageRequest.SecondParty);
+            var talk = _messagesService.CreateMessage(talkId,createMessageRequest.TextContent,createMessageRequest.CreatedBy);
 
             return Ok(talk);
         }

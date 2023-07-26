@@ -4,6 +4,7 @@ using Talkative.Application.Messages.Interfaces;
 using Talkative.Application.Talks.Interfaces;
 using Talkative.Infrastructure.Persistence;
 using Talkative.Infrastructure.Services;
+using Talkative.Domain.Common.Interfaces;
 
 namespace Talkative.Infrastructure;
 

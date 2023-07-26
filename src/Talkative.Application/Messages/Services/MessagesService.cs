@@ -12,9 +12,9 @@ public class MessagesService : IMessagesService
            _messagesRepository = messagesRepository;
         }
 
-        public Message CreateMessage(Guid talkId,string textContent,Guid CreatedBy)
+        public Message CreateMessage(Guid talkId,string textContent,Guid CreatedBy,DateTimeOffset createdDateTime)
         {
-            var message = new Message(talkId,textContent,CreatedBy);
+            var message = new Message(talkId,textContent,CreatedBy,createdDateTime);
 
             _messagesRepository.Add(talkId,message);
 

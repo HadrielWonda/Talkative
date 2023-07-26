@@ -8,5 +8,5 @@ namespace Talkative.Application.Talks.Services;
 
     public interface ITalksService
     {
-        Talk CreateTalk(Guid createdBy, Guid secondParty);
+        Talk CreateTalk(Guid createdBy, Guid secondParty,DateTimeOffset dateTimeOffset);
     }

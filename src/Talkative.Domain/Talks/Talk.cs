@@ -4,11 +4,11 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
-using Talkative.Domain.Common.Interface;
+using Talkative.Domain.Common.Interfaces;
 
 namespace Talkative.Domain.Talks;
 
-    public class Talk;
+    public class Talk{
     
         public Guid Id {get; }
 
@@ -27,8 +27,15 @@ namespace Talkative.Domain.Talks;
             Id = id ?? Guid.NewGuid();
             CreatedBy = createdBy;
             SecondParty = secondParty;
-            createdDateTime = dateTimeProvider.UtcNow();
+            CreatedDateTime = dateTimeProvider.UtcNow();
         }
-      // => (CreatedBy,SecondParty,CreatedDateTime,Id) = (createdBy,secondParty,createdDateTime,Guid.NewGuid());
-    
-    
+
+    public Talk(Guid createdBy, Guid secondParty, DateTimeOffset createdDateTime)
+    {
+        CreatedBy = createdBy;
+        SecondParty = secondParty;
+        CreatedDateTime = createdDateTime;
+    }
+    // => (CreatedBy,SecondParty,CreatedDateTime,Id) = (createdBy,secondParty,createdDateTime,Guid.NewGuid());
+
+}

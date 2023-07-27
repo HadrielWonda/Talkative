@@ -17,9 +17,9 @@ namespace Talkative.Api.Controllers;
     }
 
       [HttpPost]
-        public IActionResult CreateTalk(CreateTalkRequest createTalkRequest) 
+        public IActionResult CreateTalk(CreateTalkRequest createTalkRequest, DateTimeOffset createdDateTime ) 
         {
-            var talk = _talksService.CreateTalk(createTalkRequest.CreatedBy,createTalkRequest.SecondParty);
+            var talk = _talksService.CreateTalk(createTalkRequest.CreatedBy,createTalkRequest.SecondParty,createdDateTime);
 
             return Ok(talk);
         }

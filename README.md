@@ -1,2 +1,2 @@
 # Talkative
-GPT-4 Powered messaging app following Clean Architecture principles and DDD
+GPT-3 Powered messaging app following Clean Architecture principles and DDD

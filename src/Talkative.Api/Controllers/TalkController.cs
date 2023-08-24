@@ -11,9 +11,11 @@ namespace Talkative.Api.Controllers;
     {
         private readonly ITalksService _talksService;
 
+
     public TalkController(ITalksService talksService)
     {
-        _talksService = talksService;
+        
+        _talksService = talksService;  
     }
 
       [HttpPost]

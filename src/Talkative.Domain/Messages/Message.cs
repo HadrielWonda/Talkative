@@ -16,9 +16,25 @@ namespace Talkative.Domain.Messages;
 
         public DateTimeOffset CreatedDateTime { get; }
 
-        public Message(Guid talkId, string texContent, Guid createdBy, DateTimeOffset createdDateTime)
+        private Message(Guid talkId, 
+                        string textContent,
+                        Guid createdBy, 
+                        DateTimeOffset createdDateTime)
         {
-            (TalkId, TextContent, CreatedBy, CreatedDateTime ) = (Guid.NewGuid(), texContent, createdBy,createdDateTime);
+            (TalkId, TextContent, CreatedBy, CreatedDateTime ) = (talkId, textContent, createdBy,createdDateTime);
+        }
+
+        public static Message Create(string textContent,
+                                     Guid createdBy,
+                                     DateTimeProvider dateTimeProvider/*,
+                                     Guid? talkId = null*/)
+        {
+          return new(
+            Guid.NewGuid(),
+            textContent,
+            createdBy,
+            dateTimeProvider.UtcNow(),
+          );
         }
     }
     

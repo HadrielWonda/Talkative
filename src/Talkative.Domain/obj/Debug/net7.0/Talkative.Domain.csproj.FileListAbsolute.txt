@@ -34,3 +34,14 @@ C:\Users\OLAWALE\Desktop\Projects\repos\Talkative\Talkative\src\Talkative.Domain
 C:\Users\OLAWALE\Desktop\Projects\repos\Talkative\Talkative\src\Talkative.Domain\bin\Debug\net7.0\Talkative.Domain.dll
 C:\Users\OLAWALE\Desktop\Projects\repos\Talkative\Talkative\src\Talkative.Domain\bin\Debug\net7.0\Talkative.Domain.pdb
 C:\Users\OLAWALE\Desktop\Projects\repos\Talkative\Talkative\src\Talkative.Domain\obj\Debug\net7.0\ref\Talkative.Domain.dll
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\bin\Debug\net7.0\Talkative.Domain.deps.json
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\bin\Debug\net7.0\Talkative.Domain.dll
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\bin\Debug\net7.0\Talkative.Domain.pdb
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\obj\Debug\net7.0\Talkative.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\obj\Debug\net7.0\Talkative.Domain.AssemblyInfoInputs.cache
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\obj\Debug\net7.0\Talkative.Domain.AssemblyInfo.cs
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\obj\Debug\net7.0\Talkative.Domain.csproj.CoreCompileInputs.cache
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\obj\Debug\net7.0\Talkative.Domain.dll
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\obj\Debug\net7.0\refint\Talkative.Domain.dll
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\obj\Debug\net7.0\Talkative.Domain.pdb
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Domain\obj\Debug\net7.0\ref\Talkative.Domain.dll

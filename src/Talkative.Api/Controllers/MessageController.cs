@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Talkative.Application.Messages.Services;
 using Talkative.Contracts.Messages;
 
+
 namespace Talkative.Api.Controllers;
 
 [ApiController]

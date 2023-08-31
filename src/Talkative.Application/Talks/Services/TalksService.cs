@@ -18,9 +18,9 @@ namespace Talkative.Application.Talks.Services;
            _talksRepository = talksRepository;
         }
 
-        public Talk CreateTalk(Guid CreatedBy, Guid SecondParty,DateTimeOffset CreatedDateTime)
+        public Talk CreateTalk(Guid createdBy, Guid secondParty, DateTimeOffset dateTimeOffset)
         {
-            var talk = new Talk(CreatedBy , SecondParty, CreatedDateTime);
+            var talk = new Talk(Guid.NewGuid(),createdBy,secondParty,dateTimeOffset );
 
             _talksRepository.Add(talk);
 

@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Talkative.Domain.Common.Interfaces;
 
 namespace Talkative.Domain.Messages;
@@ -12,9 +13,9 @@ namespace Talkative.Domain.Messages;
         public Message(string textContent, Guid talkId, Guid createdBy, DateTimeOffset createdDateTime) 
         {
             this.TextContent = textContent;
-    this.TalkId = talkId;
-    this.CreatedBy = createdBy;
-    this.CreatedDateTime = createdDateTime;
+            this.TalkId = talkId;
+            this.CreatedBy = createdBy;
+            this.CreatedDateTime = createdDateTime;
    
         }
      
@@ -26,7 +27,7 @@ namespace Talkative.Domain.Messages;
 
         public DateTimeOffset CreatedDateTime { get; }
 
-        private Message(Guid talkId, 
+        public Message(Guid talkId, 
                         string textContent,
                         Guid createdBy, 
                         DateTimeOffset createdDateTime)
@@ -40,8 +41,8 @@ namespace Talkative.Domain.Messages;
                                      Guid? talkId = null*/)
         {
           return new(
-            Guid.NewGuid(),
             textContent,
+            Guid.NewGuid(),
             createdBy,
             dateTimeprovider.UtcNow()
           );

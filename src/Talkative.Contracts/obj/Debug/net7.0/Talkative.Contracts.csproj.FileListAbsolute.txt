@@ -43,3 +43,17 @@ C:\Users\OLAWALE\Desktop\Projects\repos\Talkative\Talkative\src\Talkative.Contra
 C:\Users\OLAWALE\Desktop\Projects\repos\Talkative\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.pdb
 C:\Users\OLAWALE\Desktop\Projects\repos\Talkative\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.genruntimeconfig.cache
 C:\Users\OLAWALE\Desktop\Projects\repos\Talkative\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\ref\Talkative.Contracts.dll
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\bin\Debug\net7.0\Talkative.Contracts.exe
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\bin\Debug\net7.0\Talkative.Contracts.deps.json
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\bin\Debug\net7.0\Talkative.Contracts.runtimeconfig.json
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\bin\Debug\net7.0\Talkative.Contracts.dll
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\bin\Debug\net7.0\Talkative.Contracts.pdb
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.AssemblyInfoInputs.cache
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.AssemblyInfo.cs
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.csproj.CoreCompileInputs.cache
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.dll
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\refint\Talkative.Contracts.dll
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.pdb
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\Talkative.Contracts.genruntimeconfig.cache
+E:\Users\OLAWALE\Desktop\Projects\repos\Talkative\src\Talkative.Contracts\obj\Debug\net7.0\ref\Talkative.Contracts.dll

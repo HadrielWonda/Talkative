@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nB7UDYFJ5anHsvXKoFDV6GBqM4Fsg/igwfeKW0JeCC18hEGi8rFEdcT/rurC32ltIAcOgmhkqHtiuIu0uojtYw==",
+  "dgSpecHash": "YUyrfAEDIjQ0QnpipOTEWsrbgl385tdeMcSBNn2Mjvaz0TeytQvS5HAavWHaTtbIJAGOwNzsYc3cHvx4BjG03A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
+  "projectFilePath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\OLAWALE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

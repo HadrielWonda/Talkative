@@ -1,4 +1,4 @@
-POST {{Host: }}/api/talks 
+POST {{Host: }}/api/talks/{{talkId}}/messages 
 Content-Type: application/json
 
 {

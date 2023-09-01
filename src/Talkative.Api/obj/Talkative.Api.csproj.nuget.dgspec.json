@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj": {}
+    "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj": {}
   },
   "projects": {
-    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj": {
+    "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj",
+        "projectUniqueName": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj",
         "projectName": "Talkative.Api",
-        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj",
+        "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\obj\\",
+        "outputPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
-                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj"
+              "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
+                "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj"
               },
-              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj": {
-                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj"
+              "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj": {
+                "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj"
               },
-              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj": {
-                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj"
+              "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj": {
+                "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
+    "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
+        "projectUniqueName": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
         "projectName": "Talkative.Application",
-        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
+        "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\obj\\",
+        "outputPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -102,8 +102,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
-                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj"
+              "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
+                "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj"
               }
             }
           }
@@ -143,14 +143,14 @@
         }
       }
     },
-    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj": {
+    "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj",
+        "projectUniqueName": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj",
         "projectName": "Talkative.Contracts",
-        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj",
+        "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\obj\\",
+        "outputPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -196,14 +196,14 @@
         }
       }
     },
-    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
+    "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
+        "projectUniqueName": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
         "projectName": "Talkative.Domain",
-        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
+        "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\obj\\",
+        "outputPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -249,14 +249,14 @@
         }
       }
     },
-    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj": {
+    "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj",
         "projectName": "Talkative.Infrastructure",
-        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj",
+        "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\obj\\",
+        "outputPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -271,8 +271,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
-                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj"
+              "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
+                "projectPath": "E:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj"
               }
             }
           }

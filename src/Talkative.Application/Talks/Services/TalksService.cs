@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 using Talkative.Domain.Talks;
 using Talkative.Application.Talks.Interfaces;
+using Talkative.Domain.Common.Interfaces;
 
 namespace Talkative.Application.Talks.Services;
 
@@ -12,15 +13,17 @@ namespace Talkative.Application.Talks.Services;
     {
 
         private readonly ITalksRepository _talksRepository;
+        private readonly IDateTimeProvider _dateTimeProvider;
 
-        public TalksService(ITalksRepository talksRepository)
-        {
-           _talksRepository = talksRepository;
-        }
+    public TalksService(ITalksRepository talksRepository, IDateTimeProvider dateTimeProvider)
+    {
+        _talksRepository = talksRepository;
+        _dateTimeProvider = dateTimeProvider;
+    }
 
-        public Talk CreateTalk(Guid createdBy, Guid secondParty, DateTimeOffset dateTimeOffset)
+    public Talk CreateTalk(Guid createdBy, Guid secondParty, DateTimeOffset dateTimeOffset)
         {
-            var talk = new Talk(Guid.NewGuid(),createdBy,secondParty,dateTimeOffset );
+            var talk = Talk.Create(Guid.NewGuid(),createdBy,_dateTimeProvider,secondParty );
 
             _talksRepository.Add(talk);
 

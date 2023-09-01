@@ -8,6 +8,13 @@ namespace Talkative.Application;
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
+          
+            return services
+            .AddServices();
+        }
+
+        private static IServiceCollection AddServices(this IServiceCollection services)
+        {
             services.AddScoped<ITalksService,TalksService>();
 
             services.AddScoped<IMessagesService,MessagesService>();

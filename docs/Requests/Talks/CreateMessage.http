@@ -2,6 +2,6 @@ POST {{Host: }}/api/talks/{{talkId}}/messages
 Content-Type: application/json
 
 {
-    "createdBy" : "000000000-0000-0000-0000-00000000000000000",
-    "secondParty" : "000000000-0000-0000-0000-00000000000000000"
+    "textContent" : "string",
+    "createdBy" : "000000000-0000-0000-0000-00000000000000000"
 }

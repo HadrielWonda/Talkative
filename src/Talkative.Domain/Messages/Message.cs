@@ -35,7 +35,8 @@ namespace Talkative.Domain.Messages;
             (TalkId, TextContent, CreatedBy, CreatedDateTime ) = (talkId, textContent, createdBy,createdDateTime);
         }
 
-        public static Message Create(string textContent,
+        public static Message Create(Guid talkId,
+                                     string textContent,
                                      Guid createdBy,
                                      IDateTimeProvider dateTimeprovider/*,
                                      Guid? talkId = null*/)
@@ -47,5 +48,6 @@ namespace Talkative.Domain.Messages;
             dateTimeprovider.UtcNow()
           );
         }
-    }
+
+}
     

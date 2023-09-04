@@ -27,5 +27,19 @@ namespace Talkative.Infrastructure.Persistence
            _repository[talkId] = new List<Message>{ message };
             
         }
+
+        public IList<Message>List(Guid talkId)
+         {
+           return _repository.TryGetValue(talkId, out var messages)
+           ? messages
+           : Array.Empty<Message>();
+
+
+       // {
+           // return messages;
+       // }
+
+     }
     }
+
 }

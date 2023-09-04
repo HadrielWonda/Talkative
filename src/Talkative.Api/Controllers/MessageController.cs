@@ -24,5 +24,13 @@ namespace Talkative.Api.Controllers;
 
             return Ok(message);
         }
+
+         [HttpGet]
+        public IActionResult ListMessages(Guid talkId) 
+        {
+            var message = _messagesService.ListMessages(talkId);
+
+            return Ok(message);
+        }
         
     }

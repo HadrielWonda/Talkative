@@ -23,4 +23,13 @@ public class MessagesService : IMessagesService
 
             return message;
         }
+
+    
+    public IList<Message> ListMessages(Guid talkId)
+       {
+         //TODO: check that talkId exists
+
+          return _messagesRepository.List(talkId);
+       }
+
     }

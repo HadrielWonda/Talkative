@@ -21,8 +21,15 @@ namespace Talkative.Application.Talks.Services;
         _dateTimeProvider = dateTimeProvider;
     }
 
+   // public AellaTalk CreateAellaTalk(Guid talkId)
+    //{
+      //  return ;
+    //}
+
     public Talk CreateTalk(Guid createdBy, Guid secondParty, DateTimeOffset dateTimeOffset)
         {
+
+            //TODO: Check that talk hasnt already been created between both parties
             var talk = Talk.Create(Guid.NewGuid(),createdBy,_dateTimeProvider,secondParty );
 
             _talksRepository.Add(talk);

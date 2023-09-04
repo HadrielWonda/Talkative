@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using Talkative.Application.Aella.Services;
 using Talkative.Application.Messages.Services;
 using Talkative.Application.Talks.Services;
 
@@ -18,6 +19,8 @@ namespace Talkative.Application;
             services.AddScoped<ITalksService,TalksService>();
 
             services.AddScoped<IMessagesService,MessagesService>();
+
+            services.AddScoped<IAellaService,AellaService>();
 
             return services;
         }

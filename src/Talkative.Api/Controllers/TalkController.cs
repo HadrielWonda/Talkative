@@ -6,7 +6,7 @@ using Talkative.Contracts.Talks;
 namespace Talkative.Api.Controllers;
 
 [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/beta/[controller]")]
     public class TalkController : ControllerBase
     {
         private readonly ITalksService _talksService;

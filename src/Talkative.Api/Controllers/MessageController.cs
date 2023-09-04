@@ -7,7 +7,7 @@ using Talkative.Contracts.Messages;
 namespace Talkative.Api.Controllers;
 
 [ApiController]
-    [Route("api/talks/{talkId}/[controller]")]
+    [Route("api/beta/talks/{talkId}/[controller]")]
     public class MessageController : ControllerBase
     {
         private readonly IMessagesService _messagesService;

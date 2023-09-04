@@ -5,6 +5,7 @@ using Talkative.Application.Talks.Interfaces;
 using Talkative.Infrastructure.Persistence;
 using Talkative.Infrastructure.Services;
 using Talkative.Domain.Common.Interfaces;
+using Talkative.Application.Aella.Interfaces;
 
 namespace Talkative.Infrastructure;
 
@@ -24,6 +25,8 @@ namespace Talkative.Infrastructure;
             services.AddScoped<ITalksRepository,TalksRepository>();
 
             services.AddScoped<IMessagesRepository,MessagesRepository>();
+
+            services.AddScoped<IAellaTalkRepository,AellaTalkRepository>();
 
             return services;
         }

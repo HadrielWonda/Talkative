@@ -9,5 +9,6 @@ namespace Talkative.Application.Talks.Services;
 
     public interface ITalksService
     {
-        Talk CreateTalk(Guid createdBy, Guid secondParty,DateTimeOffset dateTimeOffset);
+  //  AellaTalk CreateAellaTalk(Guid talkId);
+    Talk CreateTalk(Guid createdBy, Guid secondParty,DateTimeOffset dateTimeOffset);
     }

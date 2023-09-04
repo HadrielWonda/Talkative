@@ -10,5 +10,6 @@ namespace Talkative.Application.Aella.Interfaces;
 
     public interface IAellaTalkRepository
     {
+        bool Exists(Guid talkId);
          void Add(AellaTalk aellaTalk);
     }

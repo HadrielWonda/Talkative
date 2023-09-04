@@ -17,4 +17,8 @@ namespace Talkative.Infrastructure.Persistence;
             _repository[talk.Id] = talk;
         }
 
+    public bool Exists(Guid talkId)
+    {
+      return _repository.ContainsKey(talkId);
+    }
 }

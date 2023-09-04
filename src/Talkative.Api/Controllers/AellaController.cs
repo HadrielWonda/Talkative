@@ -10,7 +10,7 @@ using Talkative.Contracts.Aella;
 namespace Talkative.Api.Controllers
 {
     [ApiController]
-    [Route("/api/beta/talks/{talkId}/aella/answers")]
+    [Route("/api/beta/talks/{talkId}/aella")]
     public class AellaController : ControllerBase
     {
         private readonly IAellaService _aellaService;
@@ -20,9 +20,15 @@ namespace Talkative.Api.Controllers
             _aellaService = aellaService;
         }
 
-        public IActionResult AnswerPrompt(AnswerPromptRequest answerPromptRequest)
+        [HttpPost("messages")]
+        public IActionResult AnswerPrompt(AnswerPromptRequest answerPromptRequest,Guid talkId)
         {
-           throw new NotImplementedException();
+          // throw new NotImplementedException();
+         var response = _aellaService.AnswerPrompt(talkId,
+                     answerPromptRequest.TextContent,
+                     answerPromptRequest.CreatedBy);
+
+          return Ok(response) ;          
         }
     }
 }

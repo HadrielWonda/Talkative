@@ -5,5 +5,5 @@ using System.Threading.Tasks;
 
 namespace Talkative.Contracts.Aella;
 
-    public record AnswerPromptRequest( string TextContent, Guid CreatedBy);
+    public record AnswerPromptRequest(string TextContent, Guid CreatedBy);
        

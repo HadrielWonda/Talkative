@@ -29,15 +29,17 @@ namespace Talkative.Application.Aella.Services;
     public string AnswerPrompt(Guid talkId,string TextContent,Guid CreatedBy)
         {
 
-            var aellaTalkId = AellaTalkId.CreateForTalkId(talkId);
+           /* var aellaTalkId = AellaTalkId.CreateForTalkId(talkId);
 
             if (!_aellaTalkRepository.Exists(aellaTalkId))
             {
                 var aellaTalk = AellaTalk.Create(talkId,_dateTimeProvider);
                 _aellaTalkRepository.Add(aellaTalk);
             }
+            */
 
            // var message = Message.Create(talkId,TextContent,CreatedBy,_dateTimeProvider);
+           
            _messagesService.CreateMessage(talkId,TextContent,CreatedBy,_dateTimeProvider);
            
             return "Hi I'm Aella, pleased to meet you";

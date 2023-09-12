@@ -15,7 +15,7 @@ public class MessagesService : IMessagesService
         _dateTimeProvider = dateTimeProvider;
     }
 
-    public Message CreateMessage(Guid talkId,string textContent,Guid CreatedBy,DateTimeOffset dateTimeOffset)
+    public Message CreateMessage(Guid talkId,string textContent,Guid CreatedBy,IDateTimeProvider dateTimeOffset)
         {
             var message = Message.Create(talkId,textContent,CreatedBy,_dateTimeProvider);
 

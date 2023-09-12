@@ -9,5 +9,5 @@ namespace Talkative.Application.Aella.Services;
 
     public interface IAellaService
     {
-        public Message AnswerPrompt(Guid talkId,string TextContent,Guid CreatedBy);
+        public string AnswerPrompt(Guid talkId,string TextContent,Guid CreatedBy);
     }

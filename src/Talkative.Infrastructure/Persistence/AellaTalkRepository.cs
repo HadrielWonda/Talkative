@@ -10,15 +10,15 @@ namespace Talkative.Infrastructure.Persistence;
 
     public class AellaTalkRepository : IAellaTalkRepository
     {
-        private static readonly Dictionary<Guid,AellaTalk> _repository = new();
+        private static readonly Dictionary<AellaTalkId,AellaTalk> _repository = new();
 
         public void Add(AellaTalk talk)
         {
             _repository[talk.Id] = talk;
         }
 
-    public bool Exists(Guid talkId)
+    public bool Exists(AellaTalkId aellaTalkId)
     {
-      return _repository.ContainsKey(talkId);
+      return _repository.ContainsKey(aellaTalkId);
     }
 }

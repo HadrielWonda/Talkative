@@ -10,7 +10,7 @@ namespace Talkative.Domain.Talks;
     public class AellaTalk
     {
     
-        public Guid Id {get; }
+        public AellaTalkId Id {get; }
 
         public Guid TalkId {get; }
 
@@ -19,7 +19,7 @@ namespace Talkative.Domain.Talks;
         private AellaTalk(
          Guid talkId,
          DateTimeOffset dateTimeOffset,
-         Guid id)
+         AellaTalkId id)
         {
             Id = id;
             TalkId = talkId;
@@ -36,8 +36,9 @@ namespace Talkative.Domain.Talks;
     public static AellaTalk Create(Guid talkId,
               IDateTimeProvider dateTimeProvider)
               {
-                return new(Guid.NewGuid(),
-                  talkId,
-                  dateTimeProvider.UtcNow());
+                return new(talkId,
+                  dateTimeProvider.UtcNow(),
+                  AellaTalkId.CreateForTalkId(talkId)
+                  );
               }
  }

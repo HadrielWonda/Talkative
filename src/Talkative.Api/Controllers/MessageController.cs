@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 using Talkative.Application.Messages.Services;
 using Talkative.Contracts.Messages;
+using Talkative.Domain.Common.Interfaces;
 
 
 namespace Talkative.Api.Controllers;
@@ -18,7 +19,7 @@ namespace Talkative.Api.Controllers;
     }
 
       [HttpPost]
-        public IActionResult CreateMessage(CreateMessageRequest createMessageRequest,Guid talkId , DateTimeOffset createdDateTime) 
+        public IActionResult CreateMessage(CreateMessageRequest createMessageRequest,Guid talkId , IDateTimeProvider createdDateTime) 
         {
             var message = _messagesService.CreateMessage(talkId,createMessageRequest.TextContent,createMessageRequest.CreatedBy,createdDateTime);
 

@@ -2,11 +2,13 @@ using Microsoft.AspNetCore.Mvc;
 
 using Talkative.Application.Messages.Services;
 using Talkative.Contracts.Messages;
+using Talkative.Domain.Common.Interfaces;
+
 
 namespace Talkative.Api.Controllers;
 
 [ApiController]
-    [Route("api/talks/{talkId}/[controller]")]
+    [Route("api/beta/talks/{talkId}/[controller]")]
     public class MessageController : ControllerBase
     {
         private readonly IMessagesService _messagesService;
@@ -17,11 +19,19 @@ namespace Talkative.Api.Controllers;
     }
 
       [HttpPost]
-        public IActionResult CreateMessage(CreateMessageRequest createMessageRequest,Guid talkId , DateTimeOffset createdDateTime) 
+        public IActionResult CreateMessage(CreateMessageRequest createMessageRequest,Guid talkId , IDateTimeProvider createdDateTime) 
         {
-            var talk = _messagesService.CreateMessage(talkId,createMessageRequest.TextContent,createMessageRequest.CreatedBy,createdDateTime);
+            var message = _messagesService.CreateMessage(talkId,createMessageRequest.TextContent,createMessageRequest.CreatedBy,createdDateTime);
 
-            return Ok(talk);
+            return Ok(message);
+        }
+
+         [HttpGet]
+        public IActionResult ListMessages(Guid talkId) 
+        {
+            var message = _messagesService.ListMessages(talkId);
+
+            return Ok(message);
         }
         
     }

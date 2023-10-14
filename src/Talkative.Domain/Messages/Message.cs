@@ -4,11 +4,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using Talkative.Domain.Common.Interfaces;
+
 namespace Talkative.Domain.Messages;
 
     public class Message
     {
-        public string TextContent {get; }
+        public Message(string textContent, Guid talkId, Guid createdBy, DateTimeOffset createdDateTime) 
+        {
+            this.TextContent = textContent;
+            this.TalkId = talkId;
+            this.CreatedBy = createdBy;
+            this.CreatedDateTime = createdDateTime;
+   
+        }
+     
+         public string TextContent {get; }
         
          public Guid TalkId {get; }
 
@@ -16,9 +27,27 @@ namespace Talkative.Domain.Messages;
 
         public DateTimeOffset CreatedDateTime { get; }
 
-        public Message(Guid talkId, string texContent, Guid createdBy, DateTimeOffset createdDateTime)
+        public Message(Guid talkId, 
+                        string textContent,
+                        Guid createdBy, 
+                        DateTimeOffset createdDateTime)
         {
-            (TalkId, TextContent, CreatedBy, CreatedDateTime ) = (Guid.NewGuid(), texContent, createdBy,createdDateTime);
+            (TalkId, TextContent, CreatedBy, CreatedDateTime ) = (talkId, textContent, createdBy,createdDateTime);
         }
-    }
+
+        public static Message Create(Guid talkId,
+                                     string textContent,
+                                     Guid createdBy,
+                                     IDateTimeProvider dateTimeprovider/*,
+                                     Guid? talkId = null*/)
+        {
+          return new(
+            textContent,
+            Guid.NewGuid(),
+            createdBy,
+            dateTimeprovider.UtcNow()
+          );
+        }
+
+}
     

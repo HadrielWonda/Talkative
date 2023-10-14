@@ -8,4 +8,4 @@ namespace Talkative.Domain.Common.Interfaces;
     public interface IDateTimeProvider
     {
         DateTimeOffset UtcNow();
-    }
+    }       

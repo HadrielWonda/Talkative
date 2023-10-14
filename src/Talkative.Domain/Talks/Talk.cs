@@ -18,24 +18,42 @@ namespace Talkative.Domain.Talks;
 
         public DateTimeOffset CreatedDateTime { get; }
 
-        public Talk(
+        private Talk(
          Guid createdBy,
          Guid secondParty,
-         IDateTimeProvider dateTimeProvider,
-         Guid? id = null)
+         DateTimeOffset dateTimeOffset,
+         Guid id)
         {
-            Id = id ?? Guid.NewGuid();
+            Id = id;
             CreatedBy = createdBy;
             SecondParty = secondParty;
-            CreatedDateTime = dateTimeProvider.UtcNow();
+            CreatedDateTime = dateTimeOffset;
         }
 
-    public Talk(Guid createdBy, Guid secondParty, DateTimeOffset createdDateTime)
+    public Talk(Guid guid, Guid createdBy, Guid secondParty, DateTimeOffset dateTimeOffset)
     {
         CreatedBy = createdBy;
         SecondParty = secondParty;
-        CreatedDateTime = createdDateTime;
     }
+
+    public static Talk Create(Guid createdBy,
+              Guid secondParty,
+              IDateTimeProvider dateTimeProvider,
+              Guid? id = null)
+              {
+                return new(Guid.NewGuid(),
+                  createdBy,
+                  secondParty,
+                  dateTimeProvider.UtcNow());
+              }
+  /* {
+       CreatedBy = createdBy;
+        SecondParty = secondParty;
+        CreatedDateTime = createdDateTime;
+    }*/
+    //or
     // => (CreatedBy,SecondParty,CreatedDateTime,Id) = (createdBy,secondParty,createdDateTime,Guid.NewGuid());
 
+    
+       
 }

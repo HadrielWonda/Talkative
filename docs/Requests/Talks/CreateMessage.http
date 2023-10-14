@@ -1,0 +1,7 @@
+POST {{Host: }}/api/beta/talks/{{talkId}}/messages 
+Content-Type: application/json
+
+{
+    "textContent" : "string",
+    "createdBy" : "000000000-0000-0000-0000-00000000000000000"
+}

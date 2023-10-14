@@ -1,46 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj": {}
+    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj": {
+    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj",
+        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj",
         "projectName": "Talkative.Api",
-        "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj",
-        "packagesPath": "C:\\Users\\OLAWALE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Api\\obj\\",
+        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\Talkative.Api.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OLAWALE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
-                "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj"
+              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
+                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj"
               },
-              "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj": {
-                "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj"
+              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj": {
+                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj"
               },
-              "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj"
+              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj": {
+                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj"
               }
             }
           }
@@ -83,41 +76,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
+    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
+        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
         "projectName": "Talkative.Application",
-        "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
-        "packagesPath": "C:\\Users\\OLAWALE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\obj\\",
+        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OLAWALE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
-                "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj"
+              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
+                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj"
               }
             }
           }
@@ -153,33 +139,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj": {
+    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj",
+        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj",
         "projectName": "Talkative.Contracts",
-        "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj",
-        "packagesPath": "C:\\Users\\OLAWALE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Contracts\\obj\\",
+        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\Talkative.Contracts.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OLAWALE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -213,33 +192,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
+    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
+        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
         "projectName": "Talkative.Domain",
-        "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
-        "packagesPath": "C:\\Users\\OLAWALE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Domain\\obj\\",
+        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\Talkative.Domain.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OLAWALE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -273,41 +245,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj": {
+    "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj",
+        "projectUniqueName": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj",
         "projectName": "Talkative.Infrastructure",
-        "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\OLAWALE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Infrastructure\\obj\\",
+        "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\Talkative.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OLAWALE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
-                "projectPath": "C:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj"
+              "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj": {
+                "projectPath": "e:\\Users\\OLAWALE\\Desktop\\Projects\\repos\\Talkative\\src\\Talkative.Application\\Talkative.Application.csproj"
               }
             }
           }
@@ -343,7 +308,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
